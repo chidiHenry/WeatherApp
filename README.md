@@ -1,15 +1,4 @@
-# 🚀 Welcome to your new awesome project!
+# 🚀 Welcome to our Weather App!
 
-This project has been created using **webpack-cli**, you can now run
+Use the app to get weather information for over 200 cities in the world
 
-```
-npm run build
-```
-
-or
-
-```
-yarn build
-```
-
-to bundle your application
