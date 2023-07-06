@@ -5,20 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WeatherApp</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
+    <h2>Weather App</h2>
     <div id="container">
         <form id="form">
             <label for="cityName">City Name</label>
           <input id="cityName" type="text">
-          <label for="countryCode">Country Code</label>
-          <input id="countryCode" type="text">
+          <input type="submit" id="submitButton" value="Submit">
         </form>
 
     </div>
     <div id="display">
-
+        <input type="text" id ="observationTime" value="Observation Time: 0:00 ">
+        <input type="temperature" id="temperature" value="Temperature: 0">
+        <input type="text" id ="humidity" value="Humidity: 0" >
+        <input type="text" id ="visibility" value="Visibility: 0">
+        <input type="text" id ="windSpeed" value="Wind Speed: 0">
+        <input type="text" id ="weatherDescriptions" value="Weather Descriptions: Sunny">
+        <img id = "weatherImage">
+        
     </div>
     
 </body>
